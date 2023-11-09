@@ -20,9 +20,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Menu Toggle
-document.querySelector('.sidebar-toggle').addEventListener('click', function() {
-  document.querySelector('.sidebar').classList.toggle('collapsed');
-});
+
 
 // Scroll Animation
 document.addEventListener('DOMContentLoaded', () => {
