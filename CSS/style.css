@@ -548,6 +548,8 @@ h3.my-profession
         display: flex;
         flex-wrap: wrap;
         min-width: 100vh;
+        padding-top: 100px;
+        padding-bottom: -50px;
 }
 .services .container 
 {
