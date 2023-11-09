@@ -19,9 +19,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Theme Toggle
-document.getElementById('toggleTheme').addEventListener('click', function() {
-  document.documentElement.classList.toggle('dark-theme');
+// Menu Toggle
+document.querySelector('.sidebar-toggle').addEventListener('click', function() {
+  document.querySelector('.sidebar').classList.toggle('collapsed');
 });
 
 // Scroll Animation

@@ -315,7 +315,7 @@ h3.my-profession
         border-bottom: 10px solid var(--skin-color);
         border-right: 10px solid var(--skin-color);
         right: 14px;
-        bottom: -20px;
+        bottom: 0px;
 }
 .home-img::before
 {
@@ -810,6 +810,23 @@ h3.my-profession
                 max-width: 100%;
         }
 }
+@media (max-width: 768px) {
+        /* Collapse the sidebar on the home page */
+        .sidebar {
+          display: none;
+        }
+      
+        /* Reduce the width of the personal information and skills sections on the about page */
+        .about-content .personal-info,
+        .about-content .skills {
+          width: 100%;
+        }
+      
+        /* Make all text larger and easier to read */
+        body {
+          font-size: 18px;
+        }
+      } 
 /* Footer */
 *{
 margin:0;
